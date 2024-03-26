@@ -1,0 +1,29 @@
+{
+  "id": "pf2e-ctrl-click-effects",
+  "title": "PF2e Ctrl Click Effects",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "authors": [
+    {
+      "name": "websterguy",
+      "url": "github.com/websterguy",
+      "discord": "websterguy"
+    }
+  ],
+  "description": "When ctrl-clicking an effect or condition link in chat, apply to the selected tokens."
+}

@@ -1,11 +1,11 @@
-# PF1 Resistance Check Mod
+# PF2e Ctrl Click Effects
 ## Installation
 
-https://github.com/websterguy/pf1-resistance-check/releases/latest/download/module.json
+https://github.com/websterguy/pf2e-ctrl-click-effects/releases/latest/download/module.json
 
 ## Description
 
-When clicking the apply damage button in a chat card, if any selected tokens have anything in their resistance, reduction, weakness, or immunity the adjustment dialog will be forced open. User can still hold shift to open the dialog as normal. User can hold ctrl+shift to always bypass the dialog.
+When ctrl-clicking an effect or condition link in chat, apply to the selected tokens.
 
 ## Donations
 
