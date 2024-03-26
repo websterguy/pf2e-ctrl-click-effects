@@ -114,7 +114,7 @@ jobs:
             `# Options`                          \
             --recurse-paths                      \
             `# The name of the output file`      \
-             ./pf1-resistance-check.zip          \
+             ./pf2e-ctrl-click-effects.zip          \
             `# The files that will be included.` \
             module.json                          \
             scripts/
@@ -132,6 +132,6 @@ jobs:
           draft: ${{ github.event.release.unpublished }}
           prerelease: ${{ github.event.release.prerelease }}
           token: ${{ secrets.GITHUB_TOKEN }}
-          artifacts: './module.json, ./pf1-resistance-check.zip'
+          artifacts: './module.json, ./pf2e-ctrl-click-effects.zip'
           tag: ${{ github.event.release.tag_name }}
           body: ${{ github.event.release.body }}
