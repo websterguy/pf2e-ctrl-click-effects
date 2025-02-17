@@ -5,7 +5,7 @@ https://github.com/websterguy/pf2e-ctrl-click-effects/releases/latest/download/m
 
 ## Description
 
-When ctrl-clicking an effect or condition link in chat, apply to the selected tokens.
+When ctrl-clicking (⌘-click on mac) an effect or condition link in chat, apply to the selected tokens.
 
 Mostly contains a selection of code straight from the pf2e system to apply context to the effects created for the purposes of RE scaling.
 
