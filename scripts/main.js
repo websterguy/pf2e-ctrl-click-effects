@@ -1,6 +1,15 @@
-Hooks.on('renderChatMessage', (msg, [html]) => {
-    html.querySelectorAll('a.content-link').forEach(o => {
-        if (o.dataset.tooltip === 'Effect Item' || o.dataset.tooltip === 'Condition Item') {
+let tooltips = [];
+
+Hooks.on("renderChatMessage", (msg, [html]) => {
+    tooltips ??= ["condition", "effect"].map((type) =>
+        game.i18n.format("DOCUMENT.TypePageFormat", {
+            type: game.i18n.localize(`TYPES.Item.${type}`),
+            page: "Item",
+        })
+    )
+
+    html.querySelectorAll("a.content-link").forEach((o) => {
+        if (tooltips.includes(o.dataset.tooltip)) {
             o.addEventListener('click', async (event) => {
                 if (event.ctrlKey === true) {
                     event.stopPropagation();
