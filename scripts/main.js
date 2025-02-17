@@ -1,4 +1,4 @@
-let tooltips = [];
+let tooltips;
 
 Hooks.on("renderChatMessage", (msg, [html]) => {
     tooltips ??= ["condition", "effect"].map((type) =>
