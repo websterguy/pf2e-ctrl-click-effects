@@ -11,7 +11,7 @@ Hooks.on("renderChatMessage", (msg, [html]) => {
     html.querySelectorAll("a.content-link").forEach((o) => {
         if (tooltips.includes(o.dataset.tooltip)) {
             o.addEventListener('click', async (event) => {
-                if (event.ctrlKey === true) {
+                if (event.ctrlKey || event.metaKey) {
                     event.stopPropagation();
                     event.stopImmediatePropagation();
 
