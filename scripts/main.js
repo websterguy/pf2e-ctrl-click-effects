@@ -9,7 +9,7 @@ Hooks.on("renderChatMessage", (msg, [html]) => {
     )
 
     html.querySelectorAll("a.content-link").forEach((o) => {
-        if (tooltips.includes(o.dataset.tooltip)) {
+        if (tooltips.includes(o.dataset.tooltipText)) {
             o.addEventListener('click', async (event) => {
                 if (event.ctrlKey || event.metaKey) {
                     event.stopPropagation();
