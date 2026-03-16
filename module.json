@@ -21,6 +21,18 @@
   "esmodules": [
     "scripts/main.js"
   ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "cn",
+      "name": "简体中文",
+      "path": "lang/zh-cn.json"
+    }
+  ],
   "authors": [
     {
       "name": "websterguy",
