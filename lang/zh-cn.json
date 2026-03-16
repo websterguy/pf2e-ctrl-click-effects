@@ -1,0 +1,11 @@
+{
+  "pf2e-ctrl-click-effects": {
+    "notifications": {
+      "noTokensSelected": "请先在场上选中至少一个目标 Token。",
+      "conditionApplied": "已为 {count} 个目标添加状态：{name}",
+      "effectApplied": "已为 {count} 个目标添加效果：{name}",
+      "itemNotFound": "找不到对应的效果或状态数据。",
+      "applyFailed": "应用效果或状态时发生错误，请查看控制台。"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "pf2e-ctrl-click-effects": {
+    "notifications": {
+      "noTokensSelected": "Please select at least one target token first.",
+      "conditionApplied": "Applied condition to {count} target(s): {name}",
+      "effectApplied": "Applied effect to {count} target(s): {name}",
+      "itemNotFound": "Could not find the requested effect or condition.",
+      "applyFailed": "Failed to apply the effect or condition. See console for details."
+    }
+  }
+}
