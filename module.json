@@ -3,8 +3,8 @@
   "title": "PF2e Ctrl Click Effects",
   "version": "#{VERSION}#",
   "compatibility": {
-    "minimum": "13",
-    "verified": "13.344"
+    "minimum": "14",
+    "verified": "14.363"
   },
   "relationships": {
     "systems": [
@@ -12,8 +12,16 @@
         "id": "pf2e",
         "type": "system",
         "compatibility": {
-          "minumum": "7.1.0",
-          "verified": "7.1.0"
+          "minumum": "8.1.0",
+          "verified": "8.2.0"
+        }
+      },
+      {
+        "id": "sf2e",
+        "type": "system",
+        "compatibility": {
+          "minumum": "1.1.0",
+          "verified": "1.2.0"
         }
       }
     ]
