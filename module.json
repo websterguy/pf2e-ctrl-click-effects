@@ -4,7 +4,7 @@
   "version": "#{VERSION}#",
   "compatibility": {
     "minimum": "14",
-    "verified": "14.363"
+    "verified": "14.367"
   },
   "relationships": {
     "systems": [
@@ -13,7 +13,7 @@
         "type": "system",
         "compatibility": {
           "minumum": "8.1.0",
-          "verified": "8.2.0"
+          "verified": "8.4.1"
         }
       },
       {
@@ -21,11 +21,18 @@
         "type": "system",
         "compatibility": {
           "minumum": "1.1.0",
-          "verified": "1.2.0"
+          "verified": "1.4.1"
         }
       }
     ]
   },
+  "languages": [
+    {
+        "lang": "en",
+        "name": "English",
+        "path": "lang/en.json"
+    }
+  ],
   "esmodules": [
     "scripts/main.js"
   ],
