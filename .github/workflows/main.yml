@@ -116,8 +116,8 @@ jobs:
             `# The name of the output file`      \
              ./pf2e-ctrl-click-effects.zip          \
             `# The files that will be included.` \
-            module.json                          \\
-            lang/
+            module.json                          \
+            lang/                              \
             scripts/
           # Don't forget to add a backslash at the end of the line for any
           # additional files or directories!
