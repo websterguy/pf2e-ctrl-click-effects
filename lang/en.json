@@ -1,0 +1,8 @@
+{
+    "pf2e-ctrl-click-effects": {
+        "ButtonTooltip": "Apply to selected tokens",
+        "PersistentDamageError": "PF2e Ctrl Click Effects: Unexpected error adding persistent damage: all instances must be persistent",
+        "SettingsAppendHint": "Add a button to chat effect and condition links to click to apply without holding a hotkey",
+        "SettingsAppendName": "Append Apply to Selected Button"
+    }
+}
